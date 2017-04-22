@@ -16,4 +16,18 @@
         </dependency>
     </dependencies>
 
+    <!-- repositories节点是配置maven下载jar的中央仓库，
+    默认的是国外的，下载奇慢无比，推荐使用自己搭建sonatype nexus中央仓库 -->
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>ali</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+
+    </repositories>
+
 </project>
