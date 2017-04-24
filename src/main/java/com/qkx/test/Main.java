@@ -1,7 +1,7 @@
 package com.qkx.test;
 
-import com.qkx.test.message.samples.Annotations.AnnotationSample;
-import com.qkx.test.message.samples.Linked.LinkedSample;
+import com.qkx.test.message.samples.annotations.AnnotationSample;
+import com.qkx.test.message.samples.provider.ProviderSample;
 
 /**
  * Created by qkx on 17/4/21.
@@ -9,7 +9,8 @@ import com.qkx.test.message.samples.Linked.LinkedSample;
 public class Main {
     public static void main(String[] args) {
 //        LinkedSample.main();
-        AnnotationSample.main();
+//        AnnotationSample.main();
+        ProviderSample.main();
     }
 
 }

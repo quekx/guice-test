@@ -1,4 +1,4 @@
-package com.qkx.test.message.samples.Annotations;
+package com.qkx.test.message.samples.annotations;
 
 import com.google.inject.BindingAnnotation;
 

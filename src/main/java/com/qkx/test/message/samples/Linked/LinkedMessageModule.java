@@ -1,4 +1,4 @@
-package com.qkx.test.message.samples.Linked;
+package com.qkx.test.message.samples.linked;
 
 import com.google.inject.AbstractModule;
 import com.qkx.test.message.service.MessageService;

@@ -1,4 +1,4 @@
-package com.qkx.test.message.samples.Linked;
+package com.qkx.test.message.samples.linked;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
