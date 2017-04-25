@@ -12,5 +12,6 @@ public class LinkedSample {
         Injector inject = Guice.createInjector(new LinkedMessageModule());
         MessageService messageService = inject.getInstance(MessageService.class);
         messageService.sendMessage("This is linked sample!");
+
     }
 }
